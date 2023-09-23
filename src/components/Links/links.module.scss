@@ -1,0 +1,37 @@
+.container {
+  background-color: var(--secondary-02);
+  width: 100%;
+  height: 34px;
+}
+
+.nav {
+  max-width: var(--desctop);
+  display: flex;
+  margin-left: 40px;
+
+  @media screen and (min-width: 1600px) {
+    margin: 0 auto;
+  }
+
+  @media screen and (max-width: 375px) {
+    margin: 0;
+  }
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 163px;
+  height: 34px;
+  color: var(--grayscale-00);
+  background-color: var(--secondary-02);
+  font-size: 16px;
+  font-family: var(--font-outfit);
+}
+
+.link_active {
+  border-radius: 20px 20px 0 0;
+  color: var(--grayscale-07);
+  background-color: var(--grayscale-00);
+}

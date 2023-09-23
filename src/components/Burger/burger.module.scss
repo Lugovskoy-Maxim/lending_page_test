@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 40px;
+  height: 40px;
+  background: none;
+  gap: 7px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon {
+  width: 24px;
+  height: 2px;
+}

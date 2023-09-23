@@ -1,0 +1,53 @@
+.header {
+  position: relative;
+  background-color: var(--grayscale-00);
+  margin: 0 auto;
+}
+
+.top {
+  display: flex;
+  padding: 10px 0;
+  height: 64px;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-right: 60px;
+  max-width: var(--desctop);
+
+  @media screen and (min-width: 1600px) {
+    margin: 0 auto;
+  }
+
+  @media screen and (max-width: 375px) {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  height: 51px;
+  width: 51px;
+
+  @media screen and (max-width: 375px) {
+    height: 30px;
+    width: 30px;
+  }
+}
+.title {
+  color: var(--grayscale-07, #fff);
+  text-align: center;
+  font-family: var(--font-outfit);
+  font-size: 37px;
+  font-weight: 600;
+  line-height: 17px;
+  text-transform: lowercase;
+
+  @media screen and (max-width: 375px) {
+    font-size: 30px;
+  }
+}
