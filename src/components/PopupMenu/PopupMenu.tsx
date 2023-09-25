@@ -8,9 +8,7 @@ import { PopupMenuProps } from '@/types';
 export default function PopupMenu(props: PopupMenuProps) {
   return (
     <div
-      className={`${styles.popup} ${
-        props.opened === true ? styles.active : ''
-      }`}
+      className={`${props.opened === true ? 'active' : ''} ${styles.popup} `}
     >
       <div className={styles.icons_container}>
         <button className={styles.close} onClick={() => props.onClick()}>

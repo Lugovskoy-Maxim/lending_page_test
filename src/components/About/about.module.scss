@@ -1,0 +1,16 @@
+.about {
+  position: relative;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  color: var(--grayscale-07);
+}
+
+.title {
+  font-size: 96px;
+  font-style: normal;
+}
+
+.container {
+  display: grid;
+}
